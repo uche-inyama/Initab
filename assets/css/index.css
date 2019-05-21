@@ -1,4 +1,23 @@
-.hero_section{
-  height: 400px;
+.hero-section{
   background-image: url('../image/texture.png');
+}
+.hero-section.row p.text-center{
+    font-size: 1.75rem;
+    font-weight 600;
+    color: #6272a4;
+    padding-top:60px;
+}
+.hero-section.row h6.text-center{
+    font-size: 1rem;
+    line-height: 28px;
+    font-weight 300;
+    color: #fff;
+    padding-top:60px;
+}
+
+.hero-section.row p.text-center span:first-child{
+  color: white;
+}
+.hero-section.row p.text-center span:last-child{
+  color: #ff79c6;
 }
