@@ -1,3 +1,7 @@
+*{
+    font-family: "Inconsolata", monospace, sans-serif;
+}
+
 .hero-section{
   background-image: url('../image/texture.png');
 }
@@ -34,4 +38,11 @@
 
 .About-Initab.col-12 p.text-justify{
   margin-bottom: 70px;
+}
+
+.addToChromeBtn{
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  font-family: "Inconsolata", monospace, sans-serif;
 }
