@@ -88,3 +88,61 @@ p{
     padding: 50px 0;
   }
 }
+
+@media (min-width: 576px) and (max-width: 992px){
+  .About-Initab.col-12 {
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+  .col-12.add-To-Chrome{
+    padding: 100px 100px;
+  }
+  .row.Beautiful-themes{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .row.dracula{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .row.Base16{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 0.1px solid black;
+  }
+  .row.twitter{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 0.1px solid black;
+
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .row.features{
+      padding-bottom: 50px;
+    }
+    .row.Beautiful-themes{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .row.copyright div{
+    padding: 0 120px;
+  }
+  .row.dracula{
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px){
+  .row.dracula{
+   
+    padding-bottom: 50px;
+    padding-top: 100px;
+  }
+  .row.Base16{
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+}
