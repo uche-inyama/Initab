@@ -15,7 +15,7 @@
     font-size: 1rem;
     line-height: 28px;
     font-weight 300;
-    color: #fff;
+    color: #000;
     padding-top:60px;
 }
 
@@ -28,7 +28,7 @@
 .About-Initab.col-12{
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   border-radius: 5px;
   font-family: "Inconsolata", monospace, sans-serif;
   font-size:1rem;
@@ -37,7 +37,7 @@
 }
 
 .About-Initab.col-12 p.text-justify{
-  margin-bottom: 70px;
+  
 }
 
 .addToChromeBtn{
@@ -52,4 +52,39 @@ p{
   font-size: 14px;
   color: #757575;
   line-height: 24px;
+}
+
+@media (max-width: 576px) { 
+  .row.Beautiful-themes {
+    padding: 100px 50px;
+  }
+
+  .row.about_initab {
+    padding:130px 0;
+    line-height: 24px;
+  }
+  .col-12.pb-5.text-center {
+      width: 60%;
+      height: auto;
+  }
+  .col-12.mb-3 p, .col-12.mb-3 h6{
+    padding:0 70px;
+  }
+  .row.addToChrome{
+    padding: 100px 0;
+  }
+  .row.addToChrome p{
+    margin-bottom: 50px
+    ;
+  }
+  .row.dracula, {
+    padding: 100px 0px;
+  }
+
+  .row.Base16{
+    padding: 100px 0px;
+  }
+  .row.twitter{
+    padding: 50px 0;
+  }
 }
