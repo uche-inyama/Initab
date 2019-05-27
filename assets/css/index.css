@@ -1,0 +1,148 @@
+*{
+    font-family: "Inconsolata", monospace, sans-serif;
+}
+
+.hero-section{
+  background-image: url('../image/texture.png');
+}
+.hero-section.row p.text-center{
+    font-size: 1.75rem;
+    font-weight 600;
+    color: #6272a4;
+    padding-top:60px;
+}
+.hero-section.row h6.text-center{
+    font-size: 1rem;
+    line-height: 28px;
+    font-weight 300;
+    color: #000;
+    padding-top:60px;
+}
+
+.hero-section.row p.text-center span:first-child{
+  color: white;
+}
+.hero-section.row p.text-center span:last-child{
+  color: #ff79c6;
+}
+.About-Initab.col-12{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 80px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace, sans-serif;
+  font-size:1rem;
+  font-weight:400;
+  line-height: 24px;
+}
+
+.About-Initab.col-12 p.text-justify{
+  
+}
+
+.addToChromeBtn{
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  font-family: "Inconsolata", monospace, sans-serif;
+}
+
+p{
+  font-weight: 400;
+  font-size: 14px;
+  color: #757575;
+  line-height: 24px;
+}
+
+@media (max-width: 576px) { 
+  .row.Beautiful-themes {
+    padding: 100px 0px;
+  }
+
+  .row.about_initab {
+    padding:130px 0;
+    line-height: 24px;
+  }
+  .col-12.pb-5.text-center {
+      width: 60%;
+      height: auto;
+  }
+  .col-12.mb-3 p, .col-12.mb-3 h6{
+    padding:0 70px;
+  }
+  .row.addToChrome{
+    padding: 100px 0;
+  }
+  .row.addToChrome p{
+    margin-bottom: 50px
+    ;
+  }
+  .row.dracula, {
+    padding: 100px 0px;
+  }
+
+  .row.Base16{
+    padding: 100px 0px;
+  }
+  .row.twitter{
+    padding: 50px 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+  .About-Initab.col-12 {
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+  .col-12.add-To-Chrome{
+    padding: 100px 100px;
+  }
+  .row.Beautiful-themes{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .row.dracula{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .row.Base16{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 0.1px solid black;
+  }
+  .row.twitter{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 0.1px solid black;
+
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .row.features{
+      padding-bottom: 50px;
+    }
+    .row.Beautiful-themes{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .row.copyright div{
+    padding: 0 120px;
+  }
+  .row.dracula{
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px){
+  .row.dracula{
+   
+    padding-bottom: 50px;
+    padding-top: 100px;
+  }
+  .row.Base16{
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+}
